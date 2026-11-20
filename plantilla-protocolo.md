@@ -1,9 +1,11 @@
 # Protocolo Experimental: Impacto de la Ubicación en Punto de Venta sobre las Ventas de RetailAndina S.A.
 
-**Institución:** Escuela Politécnica Nacional  
-**Carrera:** Ciencia de Datos e Inteligencia Artificial  
-**Asignatura:** IDSD422 – Estadística y Programación para Ciencia de Datos I (2026-B)  
-**Autor:** Guido Fidel Quilumba Díaz  
+
+* **Estudiante(s):** Quilumba Diaz Guido Fidel · usuario de GitHub: fidel2006q
+* **Docente:** Christian Suárez
+* **Período académico:** 2026-B
+* **Fecha de entrega:** 19/11/2026
+* **Repositorio (fork):** https://github.com/fidelq2006/IDSD422-lab3-diseno-experimento.git
 
 ---
 
