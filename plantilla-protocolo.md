@@ -74,7 +74,7 @@ for tienda, cond in zip(tiendas, primera):
 df_sorteo = pd.DataFrame(filas)
 print(df_sorteo.head(12))
 
-
+---
 ## 6. Variable Respuesta y Protocolo de Medición
 
 * **Qué se mide y en qué unidad:** Mido el **volumen neto de ventas del producto estrella**, expresado en **unidades físicas vendidas** (descontando devoluciones) por tienda y por semana. Utilizo unidades físicas en lugar de montos monetarios para evitar distorsiones por redondeos o variaciones mínimas de facturación.
