@@ -73,8 +73,10 @@ for tienda, cond in zip(tiendas, primera):
 
 df_sorteo = pd.DataFrame(filas)
 print(df_sorteo.head(12))
+```
 
 ---
+
 ## 6. Variable Respuesta y Protocolo de Medición
 
 * **Qué se mide y en qué unidad:** Mido el **volumen neto de ventas del producto estrella**, expresado en **unidades físicas vendidas** (descontando devoluciones) por tienda y por semana. Utilizo unidades físicas en lugar de montos monetarios para evitar distorsiones por redondeos o variaciones mínimas de facturación.
@@ -83,6 +85,9 @@ print(df_sorteo.head(12))
 * **Evaluación de ciego (blinding):**
   * *Consumidores (ciego simple natural):* Los clientes no son informados de que existe un experimento, por lo que compran de manera espontánea sin alterar su comportamiento (se evita el efecto Hawthorne).
   * *Personal de tienda (sin ciego):* **No es posible aplicar doble ciego**, ya que los reponedores y jefes de tienda realizan el traslado físico y ven diariamente dónde está ubicado el producto. Para mitigar posibles sesgos, se instruye al personal a no hacer impulsación verbal extra y se audita el reporte directamente desde el sistema POS.
+
+---
+
 ## 7. Factores a Controlar
 
 Para asegurar que la diferencia en ventas provenga únicamente de la ubicación y no de variables externas que contaminen los resultados, controlo los siguientes cinco factores críticos:
